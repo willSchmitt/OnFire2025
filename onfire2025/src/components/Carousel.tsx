@@ -44,7 +44,7 @@ export default function Carousel() {
             src={src}
             alt={`Slide ${idx + 1}`}
             fill
-            className="object-cover"
+            className="object-cover bg-black" // bg-black evita fundo branco
           />
         </SwiperSlide>
       ))}
