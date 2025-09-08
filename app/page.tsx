@@ -18,7 +18,7 @@ export default function Home() {
       />
 
       <Header />
-      <Description targetId="secao2" />
+      <Description />
       <Carousel />
       <InfoButtons />
     </main>

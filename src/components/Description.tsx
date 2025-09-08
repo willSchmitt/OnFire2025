@@ -1,5 +1,3 @@
-"use client";
-
 export function Description() {
   return (
     <div className="max-w-4xl flex flex-col items-center gap-6">
