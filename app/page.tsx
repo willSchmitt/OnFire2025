@@ -1,9 +1,8 @@
 import { Description } from "@/components/Description";
 import Header from "@/components/Header";
 import Image from "next/image";
-// import BackgroundFire from "../../public/bg-fire.jpg";
-import Carousel from "@/components/Carousel";
 import { InfoButtons } from "@/components/InfoButtons";
+import SlideVerticalResponsive from "@/components/SlidePictures";
 
 export default function Home() {
   return (
@@ -19,7 +18,7 @@ export default function Home() {
 
       <Header />
       <Description />
-      <Carousel />
+      <SlideVerticalResponsive />
       <InfoButtons />
     </main>
   );

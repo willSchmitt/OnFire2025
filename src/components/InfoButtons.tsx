@@ -1,11 +1,9 @@
-import Link from "next/link";
 import BotoesConvite from "./Botoes";
 
 export function InfoButtons() {
   return (
     <div id="secao2" className="flex flex-col items-center w-full">
       <div className="flex flex-col items-stretch p-8 text-white md:flex-row md:justify-center md:items-stretch md:gap-8 gap-8 w-full max-w-[1600px]">
-        {/* Card SEXTA-FEIRA */}
         <div className="w-full max-w-[600px] p-6 rounded-lg border-2 border-white/70 shadow-[0_0_20px_10px_rgba(255,255,255,0.3)] flex flex-col flex-1">
           <div className="text-3xl font-bold border-b-2 border-white pb-2 text-center">
             SEXTA-FEIRA
@@ -27,7 +25,6 @@ export function InfoButtons() {
           </div>
         </div>
 
-        {/* Card SÁBADO */}
         <div className="w-full max-w-[600px] p-6 rounded-lg border-2 border-white/70 shadow-[0_0_20px_10px_rgba(255,255,255,0.3)] flex flex-col flex-1">
           <div className="text-3xl font-bold border-b-2 border-white pb-2 text-center">
             SÁBADO
@@ -60,7 +57,6 @@ export function InfoButtons() {
         </p>
       </div>
 
-      {/* Botões */}
       <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-8">
         <BotoesConvite />
       </div>
