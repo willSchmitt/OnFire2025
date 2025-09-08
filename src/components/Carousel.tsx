@@ -9,7 +9,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const slides = [
-  "/IMG_7003.png",
   "/IMG_7002.png",
   "/IMG_7001.png",
   "/IMG_7004.png",

@@ -1,16 +1,6 @@
 "use client";
 
-interface BotaoProps {
-  targetId: string;
-}
-
-export function Description({ targetId }: BotaoProps) {
-  const handleClick = () => {
-    const element = document.getElementById(targetId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+export function Description() {
   return (
     <div className="max-w-4xl flex flex-col items-center gap-6">
       <p className="text-center text-xl font-bold text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.9)]">
@@ -22,16 +12,14 @@ export function Description({ targetId }: BotaoProps) {
       </p>
 
       <a
-        href="#"
-        onClick={(e) => {
-          e.preventDefault(); // previne recarregar a página
-          handleClick();
-        }}
+        href="https://ivida.com.br/eventos/1064459/on-fire-2025"
+        target="_blank"
         className="border-2 border-red-700 text-white text-center text-2xl px-8 py-4 rounded-2xl font-bold 
                bg-red-950
                opacity-80
                hover:bg-red-600 hover:shadow-[0_0_30px_8px_rgba(255,120,0,0.9)] 
-               transition-all duration-300"
+               transition-all duration-300
+               "
       >
         🔥 Quero viver essa experiência
       </a>
