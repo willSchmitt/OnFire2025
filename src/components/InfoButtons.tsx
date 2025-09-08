@@ -1,3 +1,6 @@
+import Link from "next/link";
+import BotoesConvite from "./Botoes";
+
 export function InfoButtons() {
   return (
     <div id="secao2" className="flex flex-col items-center w-full">
@@ -59,7 +62,7 @@ export function InfoButtons() {
 
       {/* Botões */}
       <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-8">
-        {/* ...seus links aqui */}
+        <BotoesConvite />
       </div>
     </div>
   );
